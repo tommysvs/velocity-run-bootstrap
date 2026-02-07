@@ -1,0 +1,56 @@
+#hero .carousel-item {
+    height: 600px;
+    position: relative;
+}
+
+#hero .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    filter: brightness(0.7);
+}
+
+#hero .carousel-caption {
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#hero .carousel-caption .lead {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-card:hover .btn-add-cart {
+    background-color: #0dcaf0;
+    color: white;
+}
+
+.product-card img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+#testimonial {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/img/running.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+#testimonial blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+}
