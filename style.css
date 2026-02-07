@@ -1,3 +1,19 @@
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    
+    .navbar .btn {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    .navbar .d-flex.gap-2 {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
 #hero .carousel-item {
     height: 600px;
     position: relative;
